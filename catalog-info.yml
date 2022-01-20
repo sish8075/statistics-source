@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: artist-web
+  description: A great microservice
+  labels:
+    example.com/custom: custom_label_value
+  annotations:
+    example.com/service-discovery: artistweb
+  tags:
+    - go
+spec:
+  type: microservice
+  lifecycle: production
+  owner: the-microservice-team
+  businessarea: the-microservice-area
+  system: microservice
