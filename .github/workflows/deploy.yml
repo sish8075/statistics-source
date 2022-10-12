@@ -1,0 +1,16 @@
+name: Deploy
+
+on:
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment: test
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Deploy
+        run: |
+         echo Deploying an environment!
+        
