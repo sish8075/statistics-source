@@ -11,7 +11,7 @@ metadata:
     - go
 spec:
   type: microservice
-  lifecycle: production
+  lifecycle: experimental
   owner: shadman
   businessarea: the-microservice-area
   system: microservice
