@@ -12,6 +12,6 @@ metadata:
 spec:
   type: microservice
   lifecycle: production
-  owner: the-microservice-team
+  owner: shadman
   businessarea: the-microservice-area
   system: microservice
