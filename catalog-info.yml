@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: artist-web
+  name: stats-source
   description: A great microservice
   labels:
     example.com/custom: custom_label_value
